@@ -1,0 +1,20 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        Scanner scan=new Scanner(System.in);
+        String a=scan.nextLine();
+        String b=scan.nextLine();
+        char[] c=a.toCharArray();
+        char[] d=b.toCharArray();
+        Arrays.sort(c);
+        Arrays.sort(d);
+        String e=(String.valueOf(c));
+        String f=(String.valueOf(d));
+        if(e.equals(f)){
+            System.out.println("True");
+        }
+    }
+}
